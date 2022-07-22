@@ -1,0 +1,264 @@
+body {
+    margin: 0 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tables table {
+    width: 600px;
+    margin-top: 4%;
+    margin-left: 32%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.tables a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar {
+    /* border: 2px solid red; */
+    background-color: rgb(158, 245, 255);
+    height: 100px;
+    margin-left: 0%;
+    position: relative;
+}
+
+.item {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.brand {
+    /* border: 2px solid rgb(54, 39, 255); */
+    height: auto;
+    width: 25%;
+    margin-left: 2%;
+    display: inline-block;
+    position: relative;
+    color: rgb(88, 87, 87);
+
+}
+
+.brand.description {
+    width: auto;
+    margin-left: 18%;
+}
+
+.brand.image {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    margin-top: 3%;
+}
+
+
+.text {
+    /* border: 2px solid rgb(31, 117, 124); */
+    height: auto;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    color: rgb(88, 87, 87);
+}
+
+.media {
+    /* border: 2px solid rgb(255, 112, 245); */
+    width: auto;
+    position: absolute;
+    float: right;
+    top: 20px;
+    left: 80%;
+}
+
+.media img:hover {
+    background-color: white;
+    text-decoration: none;
+}
+.media > a {
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.media.go {
+    margin-left: 20px;
+    padding-top: 10px
+}
+
+/* NAVBAR END */
+
+/* FILTERS */
+
+.filters {
+    /* border: 2px dotted black; */
+    width: 25%;
+    height: 100%;
+    margin-right: 2px;
+    margin-left: 5px;
+    float: left;
+}
+
+input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+  
+label {
+    display: inline-block;
+}
+
+/* END OF FILTERS */
+
+/* LISTINGS */
+
+.listings {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+    
+}
+
+.card {
+    /* border: 2px rgb(88, 151, 234) solid;  */
+    height: 400px;
+    width: 290px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 2.4%;
+    padding: 1%;
+    border-radius: 4px;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.listings img {
+    height: 200px;
+    width: 100%;
+    border-radius: 4px;
+     
+}
+
+.card > h3 {
+    font-size: 25px;
+
+}
+
+.ratings {
+    background-color: green;
+    margin-top: 0%;
+    /* border: 2px solid black; */
+    width: auto;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+}
+.ratings > h3 {
+    margin-top: 1px;
+    margin-left: 4px;
+    padding-right: 3px;
+    position: relative;
+    color: white;
+    text-decoration: solid;
+    font-size: small;
+    
+    
+}
+.dining {
+    height: auto;
+    width: auto;
+    float: left;
+    position: relative;
+   
+}
+.dining > p1{
+    margin-top: 3px;
+    margin-left: 6px;
+    position: absolute;
+    size: 200px;
+    font-size: 13px;
+}
+
+
+
+.ratings_ {
+    background-color: rgb(126, 130, 129);
+    margin-top: 0%;
+    margin-left: 27%;
+    /* border: 2px solid black; */
+    width: auto;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ratings_ > h3 {
+    margin-top: 1px;
+    margin-left: 4px;
+    padding-right: 4px;
+    color: white;
+    text-decoration: solid;
+    font-size: small;
+    position: relative;
+    
+}
+
+.delivery {
+    height: auto;
+    width: auto;
+    float: left;
+    position: relative;
+   
+}
+.delivery > p1{
+    margin-top: 3px;
+    margin-left: 6px;
+    position: absolute;
+    size: 200px;
+    font-size: 13px;
+
+}
+
+.cuisines {
+    display: inline-block;
+    width: 280px;
+    /* border: 3px solid red; */
+    position: absolute;
+    top: 77%;
+    left: 3%;
+}
+
+.cuisines > p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 17px;
+}
+
+.location {
+    display: inline-block;
+    width: 280px;
+    /* border: 3px solid red; */
+    position: absolute;
+    top: 88%;
+    left: 3%;
+}
+
+.location > p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 17px;
+}
