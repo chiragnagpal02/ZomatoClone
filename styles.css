@@ -26,7 +26,7 @@ img {
 
 .navbar {
     /* border: 2px solid red; */
-    background-color: rgb(158, 245, 255);
+    background-color: red;
     height: 100px;
     margin-left: 0%;
     position: relative;
@@ -44,7 +44,7 @@ img {
     margin-left: 2%;
     display: inline-block;
     position: relative;
-    color: rgb(88, 87, 87);
+    color: white;
 
 }
 
@@ -67,7 +67,7 @@ img {
     width: 25%;
     display: inline-block;
     text-align: center;
-    color: rgb(88, 87, 87);
+    color: white;
 }
 
 .media {
@@ -98,19 +98,43 @@ img {
 
 /* FILTERS */
 
+form {
+    display: flex; 
+    flex-flow: column; /* remove this if you want it horizontal   */ 
+}
+
+
 .filters {
-    /* border: 2px dotted black; */
+    /* background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1; */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px dotted black;  */
     width: 25%;
-    height: 100%;
+    height: auto;
     margin-right: 2px;
-    margin-left: 5px;
+    margin-left: 17px;
+    margin-top: 50px;
     float: left;
+    padding-left: 20px;
 }
 
 input[type=checkbox] {
     vertical-align: middle;
     position: relative;
     bottom: 1px;
+}
+
+.btn.btn-success {
+    background-color: green;
+    color: white;
+    margin-top: 2%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+    width: 65%;
 }
   
 label {
@@ -122,9 +146,10 @@ label {
 /* LISTINGS */
 
 .listings {
-    /* border: 2px solid black; */
-    width: 100%;
+    /* border: 2px solid black;  */
+    width: 70%;
     height: auto;
+    float: left;
     
 }
 
@@ -136,12 +161,16 @@ label {
     margin-top: 50px;
     margin-left: 2.4%;
     padding: 1%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4px;
     position: relative;
 }
 
 .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+    /* transform: skewX(10deg); */
+    /* transform: rotate(180deg); */
   }
 
 .listings img {
